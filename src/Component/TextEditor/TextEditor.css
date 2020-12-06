@@ -1,0 +1,61 @@
+.container {
+    height: 100%;
+    background: #00000021;
+}
+.header-container {
+    width: 98.3%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+}
+.sidebar-text-container {
+    display: flex;
+    height: 93%;
+}
+.sidebar-container{
+    width: 250px;
+    border: 1px solid black;
+    border-top: none;
+    height: 100%;
+}
+.file-name-inp{
+    width: 150px;
+    height: 15px;
+}
+.select-box-inp{
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+}
+.settings-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+.space-inp{
+    margin: 0 10px;
+    width: 100px;
+    height: 15px;
+}
+.format-btn {
+    width: 70px;
+    height: 20px;
+}
+.text-area-container{
+    height: 100%;
+    width: 100%;
+}
+.text-area{
+    margin-top: 10px;
+    min-width: 95%;
+    min-height: 90%;
+}
+.inp-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.delete-selected{
+    cursor: pointer;
+}
